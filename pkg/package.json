@@ -1,0 +1,19 @@
+{
+  "name": "zgc",
+  "collaborators": [
+    "Zekinler <zekinler7@gmail.com>"
+  ],
+  "description": "game engine",
+  "version": "0.1.0",
+  "license": "MIT",
+  "files": [
+    "zgc_bg.wasm",
+    "zgc.js",
+    "zgc.d.ts"
+  ],
+  "module": "zgc.js",
+  "types": "zgc.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
